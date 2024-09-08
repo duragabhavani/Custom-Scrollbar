@@ -1,0 +1,42 @@
+body{
+    background-color: crimson;
+    border: none;
+    margin: 0;
+}
+.card{
+    box-shadow: none;
+    background-color: white;
+    height:80px;
+    width:550px;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding: auto;
+    line-height: 20px;
+
+}
+h2{
+    padding-top: 10px;
+    margin-bottom:2px;
+}
+p{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top:2px;
+    
+}
+
+
+::-webkit-scrollbar{
+    height:2px;
+    width:10px;
+}
+::-webkit-scrollbar-track{
+    background-color:#45fcf1;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(#4589fc,#61fc45);
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:#c645fc;
+}
